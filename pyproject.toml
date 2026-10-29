@@ -1,0 +1,15 @@
+[project]
+name = "copa-chatbot"
+version = "1.0.0"
+description = "Chatbot especializado em Copa do Mundo"
+requires-python = ">=3.11"
+dependencies = [
+    "flask",
+    "flask-cors",
+    "groq",
+    "gunicorn>=26.2.0",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
